@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>  
+    <style>
+        body {
+  background-color: lightblue; 
+}
+h1 {
+  color: white;
+  text-align: center;
+}   
+h3{
+    color:salmon;
+}
+    </style>
+    <h1><a href="calculator.py">toonii mashin</a></h1>
+     <h1><a href="light.html">gerel</a></h1>
+     <h1><a href="game.html">togloom</a></h1>
+     <h1><a href="link.html">butsah</a></h1>
+    <script>
+            var too1 , too2 , msg = "";
+            Math.floor(Math.random() * 100) + 1;
+            function toogshalga() {
+            too1 = document.getElementById("too").innerHTML.value;
+            if (too2 > too1) msg=too2 + " sanasan toonoos ih baina dahiad oruul";
+            else if (too2 < too1) msg=too2 + " sanasan toonoos baga baina dahiad oruul";
+            else msg = too2 + " zow bn ta hojloo";
+             Document.getElementById("output").innerHTML=msg;
+        }
+    </script>
+</head>
+<body>
+    <h1>sanasan toog olooroi</h1>
+    <form >
+        1-100 iin hoorond too oruulj sanasan toog olooroi
+        <input type="text" id="too">
+        <button type="button" onclick="toogshalga()">toog shalga</button>
+    </form>
+        <h3 id="output">too oruulaad toog shalga tovch daraarai</h3>
+        <button type="button"
+onclick="document.getElementById('demo').innerHTML = Date()">
+tsag harhuu???.</button>
+
+<p id="demo"></p>
+        
+</body>
+</html>
